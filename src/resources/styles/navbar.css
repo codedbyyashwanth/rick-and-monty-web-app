@@ -1,0 +1,17 @@
+nav {
+  width: 100%;
+  padding: 1.2rem 2.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .logo {
+  color: #14213D;
+}
+nav .logo h1 {
+  font-size: 2rem;
+}
+nav .github-link a {
+  font-size: 2rem;
+  color: #14213D;
+}/*# sourceMappingURL=navbar.css.map */
