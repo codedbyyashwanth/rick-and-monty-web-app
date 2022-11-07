@@ -9,7 +9,7 @@ const Navbar = () => {
                                 <h1>R&M</h1>
                         </div>
                         <div className="github-link">
-                                <a href="#"><BsGithub /></a>
+                                <a href="https://github.com/codedbyyashwanth/rick-and-monty-web-app"><BsGithub /></a>
                         </div>
                 </nav>
         )
