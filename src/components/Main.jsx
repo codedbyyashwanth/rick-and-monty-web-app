@@ -18,6 +18,11 @@ const Main = ({ data, setPageValue, pageValue, page, setPage }) => {
 
         const pageNumber = (e) => {
                 e.preventDefault();
+                if (page > 42) {
+                        setPageValue(42);
+                        setPage(42);
+                        return
+                }
                 setPageValue(Number(page));
         }
 
