@@ -23,6 +23,12 @@ const Main = ({ data, setPageValue, pageValue, page, setPage }) => {
                         setPage(42);
                         return
                 }
+
+                if (page < 1) {
+                        setPageValue(1);
+                        setPage(1);
+                        return
+                }
                 setPageValue(Number(page));
         }
 
